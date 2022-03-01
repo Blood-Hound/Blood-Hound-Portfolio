@@ -8,10 +8,11 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | main   | :white_check_mark: |
+| upgrades | :white_check_mark |
 
 ## Reporting a Vulnerability
 
-Please show me it as a pull-request giving a clear title and a full description of what the issue is.
+Please show me it as pull requests in upgrades channel giving a clear title and a full description of what the issue is.
 <br>
 Please give me the fix to the code too.
 
