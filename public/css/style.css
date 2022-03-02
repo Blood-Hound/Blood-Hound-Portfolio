@@ -635,7 +635,8 @@ h3.my-porfession {
   transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner .icon .fas {
+.service .service-item .service-item-inner .icon .fas,
+.service .service-item .service-item-inner .icon .fab {
   font-size: 40px;
   line-height: 60px;
   color: var(--skin-color);
@@ -646,7 +647,8 @@ h3.my-porfession {
   background: var(--skin-color);
 }
 
-.service .service-item .service-item-inner:hover .icon .fas {
+.service .service-item .service-item-inner:hover .icon .fas,
+.service .service-item .service-item-inner:hover .icon .fab {
   font-size: 25px;
   color: #ffff;
 }
@@ -654,7 +656,7 @@ h3.my-porfession {
 .service .service-item .service-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;
-  color: --var(--text-black-900);
+  color: var(--skin-color);
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -844,6 +846,10 @@ h3.my-porfession {
 
   .home .home-img {
     display: none;
+  }
+
+  .portfolio .portfolio-item .portfolio-item-inner .portfolio-img img {
+    height: 240px;
   }
 }
 
